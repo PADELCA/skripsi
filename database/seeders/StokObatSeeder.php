@@ -9,26 +9,28 @@ class StokObatSeeder extends Seeder
 {
     public function run()
     {
-        $file = base_path('database/dataset_penjualan_apotek.csv');
-        $handle = fopen($file, 'r');
+        $path = base_path('database/dataset_penjualan_apotek.csv');
+        $handle = fopen($path, 'r');
         fgetcsv($handle); // Lewati header
 
-        $rows = [];
+        $data = [];
         while (($row = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            // Kita pastikan $row adalah array dan punya 3 kolom
-            if (is_array($row) && count($row) >= 3) {
-                $rows[] = [
-                    'tanggal'        => $row,
-                    'nama_obat'      => $row,
-                    'jumlah_terjual' => (int)$row,
-                    'created_at'     => now(),
-                    'updated_at'     => now(),
-                ];
-            }
+            // Cek jika baris kosong agar tidak error
+            if (empty($row)) continue;
+
+            $data[] = [
+                'tanggal'        => $row,
+                'nama_obat'      => $row[1],
+                'jumlah_terjual' => (int)$row[2],
+                'created_at'     => now(),
+                'updated_at'     => now(),
+            ];
         }
         fclose($handle);
 
-        // Langsung insert ke database
-        StokObat::insert($rows);
+        // Gunakan chunk agar tidak membebani memori jika data banyak
+        foreach (array_chunk($data, 100) as $chunk) {
+            StokObat::insert($chunk);
+        }
     }
 }
