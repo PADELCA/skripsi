@@ -1,0 +1,1096 @@
+tanggal,nama_obat,jumlah_terjual
+2025-01-01,Paracetamol,18
+2025-01-01,Amoxicillin,10
+2025-01-01,Vitamin C,26
+2025-01-02,Paracetamol,19
+2025-01-02,Amoxicillin,11
+2025-01-02,Vitamin C,22
+2025-01-03,Paracetamol,14
+2025-01-03,Amoxicillin,16
+2025-01-03,Vitamin C,22
+2025-01-04,Paracetamol,14
+2025-01-04,Amoxicillin,11
+2025-01-04,Vitamin C,26
+2025-01-05,Paracetamol,16
+2025-01-05,Amoxicillin,13
+2025-01-05,Vitamin C,28
+2025-01-06,Paracetamol,10
+2025-01-06,Amoxicillin,12
+2025-01-06,Vitamin C,22
+2025-01-07,Paracetamol,15
+2025-01-07,Amoxicillin,9
+2025-01-07,Vitamin C,13
+2025-01-08,Paracetamol,14
+2025-01-08,Amoxicillin,19
+2025-01-08,Vitamin C,22
+2025-01-09,Paracetamol,10
+2025-01-09,Amoxicillin,18
+2025-01-09,Vitamin C,28
+2025-01-10,Paracetamol,18
+2025-01-10,Amoxicillin,13
+2025-01-10,Vitamin C,31
+2025-01-11,Paracetamol,13
+2025-01-11,Amoxicillin,13
+2025-01-11,Vitamin C,29
+2025-01-12,Paracetamol,21
+2025-01-12,Amoxicillin,10
+2025-01-12,Vitamin C,29
+2025-01-13,Paracetamol,18
+2025-01-13,Amoxicillin,15
+2025-01-13,Vitamin C,22
+2025-01-14,Paracetamol,21
+2025-01-14,Amoxicillin,14
+2025-01-14,Vitamin C,21
+2025-01-15,Paracetamol,12
+2025-01-15,Amoxicillin,22
+2025-01-15,Vitamin C,27
+2025-01-16,Paracetamol,19
+2025-01-16,Amoxicillin,21
+2025-01-16,Vitamin C,22
+2025-01-17,Paracetamol,12
+2025-01-17,Amoxicillin,14
+2025-01-17,Vitamin C,18
+2025-01-18,Paracetamol,23
+2025-01-18,Amoxicillin,15
+2025-01-18,Vitamin C,38
+2025-01-19,Paracetamol,15
+2025-01-19,Amoxicillin,12
+2025-01-19,Vitamin C,27
+2025-01-20,Paracetamol,7
+2025-01-20,Amoxicillin,21
+2025-01-20,Vitamin C,19
+2025-01-21,Paracetamol,17
+2025-01-21,Amoxicillin,12
+2025-01-21,Vitamin C,23
+2025-01-22,Paracetamol,17
+2025-01-22,Amoxicillin,9
+2025-01-22,Vitamin C,22
+2025-01-23,Paracetamol,17
+2025-01-23,Amoxicillin,15
+2025-01-23,Vitamin C,27
+2025-01-24,Paracetamol,17
+2025-01-24,Amoxicillin,22
+2025-01-24,Vitamin C,23
+2025-01-25,Paracetamol,12
+2025-01-25,Amoxicillin,19
+2025-01-25,Vitamin C,25
+2025-01-26,Paracetamol,21
+2025-01-26,Amoxicillin,13
+2025-01-26,Vitamin C,32
+2025-01-27,Paracetamol,17
+2025-01-27,Amoxicillin,16
+2025-01-27,Vitamin C,17
+2025-01-28,Paracetamol,15
+2025-01-28,Amoxicillin,17
+2025-01-28,Vitamin C,28
+2025-01-29,Paracetamol,13
+2025-01-29,Amoxicillin,17
+2025-01-29,Vitamin C,17
+2025-01-30,Paracetamol,12
+2025-01-30,Amoxicillin,21
+2025-01-30,Vitamin C,30
+2025-01-31,Paracetamol,16
+2025-01-31,Amoxicillin,11
+2025-01-31,Vitamin C,22
+2025-02-01,Paracetamol,17
+2025-02-01,Amoxicillin,21
+2025-02-01,Vitamin C,24
+2025-02-02,Paracetamol,12
+2025-02-02,Amoxicillin,20
+2025-02-02,Vitamin C,19
+2025-02-03,Paracetamol,22
+2025-02-03,Amoxicillin,16
+2025-02-03,Vitamin C,19
+2025-02-04,Paracetamol,20
+2025-02-04,Amoxicillin,17
+2025-02-04,Vitamin C,23
+2025-02-05,Paracetamol,15
+2025-02-05,Amoxicillin,19
+2025-02-05,Vitamin C,28
+2025-02-06,Paracetamol,21
+2025-02-06,Amoxicillin,13
+2025-02-06,Vitamin C,26
+2025-02-07,Paracetamol,15
+2025-02-07,Amoxicillin,12
+2025-02-07,Vitamin C,10
+2025-02-08,Paracetamol,19
+2025-02-08,Amoxicillin,10
+2025-02-08,Vitamin C,29
+2025-02-09,Paracetamol,16
+2025-02-09,Amoxicillin,7
+2025-02-09,Vitamin C,26
+2025-02-10,Paracetamol,15
+2025-02-10,Amoxicillin,19
+2025-02-10,Vitamin C,24
+2025-02-11,Paracetamol,19
+2025-02-11,Amoxicillin,14
+2025-02-11,Vitamin C,19
+2025-02-12,Paracetamol,16
+2025-02-12,Amoxicillin,17
+2025-02-12,Vitamin C,26
+2025-02-13,Paracetamol,14
+2025-02-13,Amoxicillin,13
+2025-02-13,Vitamin C,13
+2025-02-14,Paracetamol,15
+2025-02-14,Amoxicillin,15
+2025-02-14,Vitamin C,19
+2025-02-15,Paracetamol,14
+2025-02-15,Amoxicillin,17
+2025-02-15,Vitamin C,23
+2025-02-16,Paracetamol,15
+2025-02-16,Amoxicillin,17
+2025-02-16,Vitamin C,16
+2025-02-17,Paracetamol,23
+2025-02-17,Amoxicillin,14
+2025-02-17,Vitamin C,24
+2025-02-18,Paracetamol,23
+2025-02-18,Amoxicillin,11
+2025-02-18,Vitamin C,17
+2025-02-19,Paracetamol,9
+2025-02-19,Amoxicillin,8
+2025-02-19,Vitamin C,31
+2025-02-20,Paracetamol,19
+2025-02-20,Amoxicillin,16
+2025-02-20,Vitamin C,22
+2025-02-21,Paracetamol,13
+2025-02-21,Amoxicillin,13
+2025-02-21,Vitamin C,31
+2025-02-22,Paracetamol,18
+2025-02-22,Amoxicillin,15
+2025-02-22,Vitamin C,22
+2025-02-23,Paracetamol,14
+2025-02-23,Amoxicillin,21
+2025-02-23,Vitamin C,36
+2025-02-24,Paracetamol,16
+2025-02-24,Amoxicillin,12
+2025-02-24,Vitamin C,28
+2025-02-25,Paracetamol,9
+2025-02-25,Amoxicillin,7
+2025-02-25,Vitamin C,24
+2025-02-26,Paracetamol,13
+2025-02-26,Amoxicillin,10
+2025-02-26,Vitamin C,27
+2025-02-27,Paracetamol,17
+2025-02-27,Amoxicillin,13
+2025-02-27,Vitamin C,23
+2025-02-28,Paracetamol,18
+2025-02-28,Amoxicillin,14
+2025-02-28,Vitamin C,18
+2025-03-01,Paracetamol,7
+2025-03-01,Amoxicillin,9
+2025-03-01,Vitamin C,29
+2025-03-02,Paracetamol,25
+2025-03-02,Amoxicillin,8
+2025-03-02,Vitamin C,27
+2025-03-03,Paracetamol,14
+2025-03-03,Amoxicillin,6
+2025-03-03,Vitamin C,24
+2025-03-04,Paracetamol,12
+2025-03-04,Amoxicillin,15
+2025-03-04,Vitamin C,26
+2025-03-05,Paracetamol,17
+2025-03-05,Amoxicillin,13
+2025-03-05,Vitamin C,28
+2025-03-06,Paracetamol,21
+2025-03-06,Amoxicillin,23
+2025-03-06,Vitamin C,27
+2025-03-07,Paracetamol,22
+2025-03-07,Amoxicillin,6
+2025-03-07,Vitamin C,23
+2025-03-08,Paracetamol,16
+2025-03-08,Amoxicillin,19
+2025-03-08,Vitamin C,24
+2025-03-09,Paracetamol,20
+2025-03-09,Amoxicillin,14
+2025-03-09,Vitamin C,37
+2025-03-10,Paracetamol,12
+2025-03-10,Amoxicillin,16
+2025-03-10,Vitamin C,18
+2025-03-11,Paracetamol,15
+2025-03-11,Amoxicillin,15
+2025-03-11,Vitamin C,26
+2025-03-12,Paracetamol,20
+2025-03-12,Amoxicillin,10
+2025-03-12,Vitamin C,29
+2025-03-13,Paracetamol,17
+2025-03-13,Amoxicillin,10
+2025-03-13,Vitamin C,23
+2025-03-14,Paracetamol,14
+2025-03-14,Amoxicillin,21
+2025-03-14,Vitamin C,25
+2025-03-15,Paracetamol,14
+2025-03-15,Amoxicillin,15
+2025-03-15,Vitamin C,25
+2025-03-16,Paracetamol,17
+2025-03-16,Amoxicillin,8
+2025-03-16,Vitamin C,18
+2025-03-17,Paracetamol,10
+2025-03-17,Amoxicillin,11
+2025-03-17,Vitamin C,32
+2025-03-18,Paracetamol,17
+2025-03-18,Amoxicillin,11
+2025-03-18,Vitamin C,19
+2025-03-19,Paracetamol,11
+2025-03-19,Amoxicillin,10
+2025-03-19,Vitamin C,20
+2025-03-20,Paracetamol,15
+2025-03-20,Amoxicillin,16
+2025-03-20,Vitamin C,15
+2025-03-21,Paracetamol,11
+2025-03-21,Amoxicillin,13
+2025-03-21,Vitamin C,27
+2025-03-22,Paracetamol,14
+2025-03-22,Amoxicillin,15
+2025-03-22,Vitamin C,18
+2025-03-23,Paracetamol,15
+2025-03-23,Amoxicillin,12
+2025-03-23,Vitamin C,20
+2025-03-24,Paracetamol,10
+2025-03-24,Amoxicillin,16
+2025-03-24,Vitamin C,30
+2025-03-25,Paracetamol,9
+2025-03-25,Amoxicillin,16
+2025-03-25,Vitamin C,24
+2025-03-26,Paracetamol,12
+2025-03-26,Amoxicillin,17
+2025-03-26,Vitamin C,27
+2025-03-27,Paracetamol,9
+2025-03-27,Amoxicillin,12
+2025-03-27,Vitamin C,20
+2025-03-28,Paracetamol,11
+2025-03-28,Amoxicillin,8
+2025-03-28,Vitamin C,18
+2025-03-29,Paracetamol,19
+2025-03-29,Amoxicillin,11
+2025-03-29,Vitamin C,34
+2025-03-30,Paracetamol,16
+2025-03-30,Amoxicillin,18
+2025-03-30,Vitamin C,22
+2025-03-31,Paracetamol,15
+2025-03-31,Amoxicillin,9
+2025-03-31,Vitamin C,22
+2025-04-01,Paracetamol,10
+2025-04-01,Amoxicillin,15
+2025-04-01,Vitamin C,13
+2025-04-02,Paracetamol,13
+2025-04-02,Amoxicillin,12
+2025-04-02,Vitamin C,18
+2025-04-03,Paracetamol,15
+2025-04-03,Amoxicillin,13
+2025-04-03,Vitamin C,10
+2025-04-04,Paracetamol,23
+2025-04-04,Amoxicillin,8
+2025-04-04,Vitamin C,16
+2025-04-05,Paracetamol,10
+2025-04-05,Amoxicillin,11
+2025-04-05,Vitamin C,17
+2025-04-06,Paracetamol,13
+2025-04-06,Amoxicillin,14
+2025-04-06,Vitamin C,14
+2025-04-07,Paracetamol,14
+2025-04-07,Amoxicillin,18
+2025-04-07,Vitamin C,12
+2025-04-08,Paracetamol,14
+2025-04-08,Amoxicillin,21
+2025-04-08,Vitamin C,16
+2025-04-09,Paracetamol,10
+2025-04-09,Amoxicillin,16
+2025-04-09,Vitamin C,10
+2025-04-10,Paracetamol,12
+2025-04-10,Amoxicillin,13
+2025-04-10,Vitamin C,10
+2025-04-11,Paracetamol,19
+2025-04-11,Amoxicillin,12
+2025-04-11,Vitamin C,18
+2025-04-12,Paracetamol,17
+2025-04-12,Amoxicillin,12
+2025-04-12,Vitamin C,16
+2025-04-13,Paracetamol,10
+2025-04-13,Amoxicillin,15
+2025-04-13,Vitamin C,22
+2025-04-14,Paracetamol,17
+2025-04-14,Amoxicillin,16
+2025-04-14,Vitamin C,14
+2025-04-15,Paracetamol,22
+2025-04-15,Amoxicillin,14
+2025-04-15,Vitamin C,20
+2025-04-16,Paracetamol,16
+2025-04-16,Amoxicillin,7
+2025-04-16,Vitamin C,19
+2025-04-17,Paracetamol,13
+2025-04-17,Amoxicillin,15
+2025-04-17,Vitamin C,13
+2025-04-18,Paracetamol,18
+2025-04-18,Amoxicillin,11
+2025-04-18,Vitamin C,10
+2025-04-19,Paracetamol,15
+2025-04-19,Amoxicillin,21
+2025-04-19,Vitamin C,16
+2025-04-20,Paracetamol,10
+2025-04-20,Amoxicillin,15
+2025-04-20,Vitamin C,8
+2025-04-21,Paracetamol,11
+2025-04-21,Amoxicillin,16
+2025-04-21,Vitamin C,18
+2025-04-22,Paracetamol,15
+2025-04-22,Amoxicillin,14
+2025-04-22,Vitamin C,10
+2025-04-23,Paracetamol,13
+2025-04-23,Amoxicillin,17
+2025-04-23,Vitamin C,18
+2025-04-24,Paracetamol,12
+2025-04-24,Amoxicillin,19
+2025-04-24,Vitamin C,17
+2025-04-25,Paracetamol,9
+2025-04-25,Amoxicillin,19
+2025-04-25,Vitamin C,17
+2025-04-26,Paracetamol,11
+2025-04-26,Amoxicillin,11
+2025-04-26,Vitamin C,14
+2025-04-27,Paracetamol,19
+2025-04-27,Amoxicillin,12
+2025-04-27,Vitamin C,16
+2025-04-28,Paracetamol,16
+2025-04-28,Amoxicillin,16
+2025-04-28,Vitamin C,18
+2025-04-29,Paracetamol,20
+2025-04-29,Amoxicillin,14
+2025-04-29,Vitamin C,12
+2025-04-30,Paracetamol,17
+2025-04-30,Amoxicillin,11
+2025-04-30,Vitamin C,9
+2025-05-01,Paracetamol,12
+2025-05-01,Amoxicillin,11
+2025-05-01,Vitamin C,20
+2025-05-02,Paracetamol,16
+2025-05-02,Amoxicillin,14
+2025-05-02,Vitamin C,15
+2025-05-03,Paracetamol,11
+2025-05-03,Amoxicillin,8
+2025-05-03,Vitamin C,12
+2025-05-04,Paracetamol,12
+2025-05-04,Amoxicillin,18
+2025-05-04,Vitamin C,16
+2025-05-05,Paracetamol,18
+2025-05-05,Amoxicillin,16
+2025-05-05,Vitamin C,15
+2025-05-06,Paracetamol,13
+2025-05-06,Amoxicillin,9
+2025-05-06,Vitamin C,18
+2025-05-07,Paracetamol,17
+2025-05-07,Amoxicillin,12
+2025-05-07,Vitamin C,12
+2025-05-08,Paracetamol,13
+2025-05-08,Amoxicillin,22
+2025-05-08,Vitamin C,24
+2025-05-09,Paracetamol,11
+2025-05-09,Amoxicillin,20
+2025-05-09,Vitamin C,19
+2025-05-10,Paracetamol,17
+2025-05-10,Amoxicillin,12
+2025-05-10,Vitamin C,23
+2025-05-11,Paracetamol,11
+2025-05-11,Amoxicillin,21
+2025-05-11,Vitamin C,17
+2025-05-12,Paracetamol,23
+2025-05-12,Amoxicillin,13
+2025-05-12,Vitamin C,12
+2025-05-13,Paracetamol,13
+2025-05-13,Amoxicillin,8
+2025-05-13,Vitamin C,15
+2025-05-14,Paracetamol,13
+2025-05-14,Amoxicillin,20
+2025-05-14,Vitamin C,12
+2025-05-15,Paracetamol,20
+2025-05-15,Amoxicillin,20
+2025-05-15,Vitamin C,18
+2025-05-16,Paracetamol,15
+2025-05-16,Amoxicillin,18
+2025-05-16,Vitamin C,14
+2025-05-17,Paracetamol,12
+2025-05-17,Amoxicillin,13
+2025-05-17,Vitamin C,12
+2025-05-18,Paracetamol,6
+2025-05-18,Amoxicillin,14
+2025-05-18,Vitamin C,19
+2025-05-19,Paracetamol,14
+2025-05-19,Amoxicillin,23
+2025-05-19,Vitamin C,16
+2025-05-20,Paracetamol,23
+2025-05-20,Amoxicillin,16
+2025-05-20,Vitamin C,12
+2025-05-21,Paracetamol,11
+2025-05-21,Amoxicillin,18
+2025-05-21,Vitamin C,14
+2025-05-22,Paracetamol,17
+2025-05-22,Amoxicillin,19
+2025-05-22,Vitamin C,11
+2025-05-23,Paracetamol,16
+2025-05-23,Amoxicillin,9
+2025-05-23,Vitamin C,12
+2025-05-24,Paracetamol,17
+2025-05-24,Amoxicillin,9
+2025-05-24,Vitamin C,13
+2025-05-25,Paracetamol,18
+2025-05-25,Amoxicillin,8
+2025-05-25,Vitamin C,17
+2025-05-26,Paracetamol,20
+2025-05-26,Amoxicillin,15
+2025-05-26,Vitamin C,19
+2025-05-27,Paracetamol,17
+2025-05-27,Amoxicillin,12
+2025-05-27,Vitamin C,19
+2025-05-28,Paracetamol,17
+2025-05-28,Amoxicillin,17
+2025-05-28,Vitamin C,16
+2025-05-29,Paracetamol,20
+2025-05-29,Amoxicillin,19
+2025-05-29,Vitamin C,13
+2025-05-30,Paracetamol,19
+2025-05-30,Amoxicillin,16
+2025-05-30,Vitamin C,17
+2025-05-31,Paracetamol,18
+2025-05-31,Amoxicillin,18
+2025-05-31,Vitamin C,25
+2025-06-01,Paracetamol,17
+2025-06-01,Amoxicillin,13
+2025-06-01,Vitamin C,8
+2025-06-02,Paracetamol,13
+2025-06-02,Amoxicillin,18
+2025-06-02,Vitamin C,18
+2025-06-03,Paracetamol,15
+2025-06-03,Amoxicillin,17
+2025-06-03,Vitamin C,14
+2025-06-04,Paracetamol,17
+2025-06-04,Amoxicillin,17
+2025-06-04,Vitamin C,24
+2025-06-05,Paracetamol,14
+2025-06-05,Amoxicillin,14
+2025-06-05,Vitamin C,14
+2025-06-06,Paracetamol,21
+2025-06-06,Amoxicillin,11
+2025-06-06,Vitamin C,17
+2025-06-07,Paracetamol,20
+2025-06-07,Amoxicillin,26
+2025-06-07,Vitamin C,18
+2025-06-08,Paracetamol,10
+2025-06-08,Amoxicillin,22
+2025-06-08,Vitamin C,19
+2025-06-09,Paracetamol,9
+2025-06-09,Amoxicillin,17
+2025-06-09,Vitamin C,11
+2025-06-10,Paracetamol,12
+2025-06-10,Amoxicillin,13
+2025-06-10,Vitamin C,14
+2025-06-11,Paracetamol,16
+2025-06-11,Amoxicillin,18
+2025-06-11,Vitamin C,15
+2025-06-12,Paracetamol,10
+2025-06-12,Amoxicillin,16
+2025-06-12,Vitamin C,16
+2025-06-13,Paracetamol,13
+2025-06-13,Amoxicillin,9
+2025-06-13,Vitamin C,4
+2025-06-14,Paracetamol,14
+2025-06-14,Amoxicillin,16
+2025-06-14,Vitamin C,19
+2025-06-15,Paracetamol,11
+2025-06-15,Amoxicillin,17
+2025-06-15,Vitamin C,7
+2025-06-16,Paracetamol,17
+2025-06-16,Amoxicillin,13
+2025-06-16,Vitamin C,15
+2025-06-17,Paracetamol,14
+2025-06-17,Amoxicillin,15
+2025-06-17,Vitamin C,8
+2025-06-18,Paracetamol,12
+2025-06-18,Amoxicillin,20
+2025-06-18,Vitamin C,11
+2025-06-19,Paracetamol,17
+2025-06-19,Amoxicillin,16
+2025-06-19,Vitamin C,11
+2025-06-20,Paracetamol,8
+2025-06-20,Amoxicillin,12
+2025-06-20,Vitamin C,20
+2025-06-21,Paracetamol,18
+2025-06-21,Amoxicillin,13
+2025-06-21,Vitamin C,20
+2025-06-22,Paracetamol,14
+2025-06-22,Amoxicillin,15
+2025-06-22,Vitamin C,21
+2025-06-23,Paracetamol,12
+2025-06-23,Amoxicillin,21
+2025-06-23,Vitamin C,16
+2025-06-24,Paracetamol,18
+2025-06-24,Amoxicillin,11
+2025-06-24,Vitamin C,27
+2025-06-25,Paracetamol,20
+2025-06-25,Amoxicillin,12
+2025-06-25,Vitamin C,14
+2025-06-26,Paracetamol,13
+2025-06-26,Amoxicillin,10
+2025-06-26,Vitamin C,26
+2025-06-27,Paracetamol,17
+2025-06-27,Amoxicillin,18
+2025-06-27,Vitamin C,26
+2025-06-28,Paracetamol,12
+2025-06-28,Amoxicillin,11
+2025-06-28,Vitamin C,13
+2025-06-29,Paracetamol,14
+2025-06-29,Amoxicillin,16
+2025-06-29,Vitamin C,11
+2025-06-30,Paracetamol,17
+2025-06-30,Amoxicillin,16
+2025-06-30,Vitamin C,11
+2025-07-01,Paracetamol,12
+2025-07-01,Amoxicillin,5
+2025-07-01,Vitamin C,14
+2025-07-02,Paracetamol,13
+2025-07-02,Amoxicillin,5
+2025-07-02,Vitamin C,14
+2025-07-03,Paracetamol,15
+2025-07-03,Amoxicillin,10
+2025-07-03,Vitamin C,13
+2025-07-04,Paracetamol,11
+2025-07-04,Amoxicillin,26
+2025-07-04,Vitamin C,17
+2025-07-05,Paracetamol,20
+2025-07-05,Amoxicillin,17
+2025-07-05,Vitamin C,23
+2025-07-06,Paracetamol,15
+2025-07-06,Amoxicillin,20
+2025-07-06,Vitamin C,17
+2025-07-07,Paracetamol,11
+2025-07-07,Amoxicillin,14
+2025-07-07,Vitamin C,9
+2025-07-08,Paracetamol,16
+2025-07-08,Amoxicillin,20
+2025-07-08,Vitamin C,13
+2025-07-09,Paracetamol,19
+2025-07-09,Amoxicillin,19
+2025-07-09,Vitamin C,15
+2025-07-10,Paracetamol,13
+2025-07-10,Amoxicillin,14
+2025-07-10,Vitamin C,14
+2025-07-11,Paracetamol,12
+2025-07-11,Amoxicillin,12
+2025-07-11,Vitamin C,16
+2025-07-12,Paracetamol,16
+2025-07-12,Amoxicillin,14
+2025-07-12,Vitamin C,15
+2025-07-13,Paracetamol,14
+2025-07-13,Amoxicillin,16
+2025-07-13,Vitamin C,16
+2025-07-14,Paracetamol,19
+2025-07-14,Amoxicillin,24
+2025-07-14,Vitamin C,11
+2025-07-15,Paracetamol,13
+2025-07-15,Amoxicillin,15
+2025-07-15,Vitamin C,12
+2025-07-16,Paracetamol,19
+2025-07-16,Amoxicillin,13
+2025-07-16,Vitamin C,18
+2025-07-17,Paracetamol,14
+2025-07-17,Amoxicillin,11
+2025-07-17,Vitamin C,11
+2025-07-18,Paracetamol,17
+2025-07-18,Amoxicillin,16
+2025-07-18,Vitamin C,25
+2025-07-19,Paracetamol,19
+2025-07-19,Amoxicillin,24
+2025-07-19,Vitamin C,12
+2025-07-20,Paracetamol,16
+2025-07-20,Amoxicillin,13
+2025-07-20,Vitamin C,18
+2025-07-21,Paracetamol,19
+2025-07-21,Amoxicillin,17
+2025-07-21,Vitamin C,16
+2025-07-22,Paracetamol,16
+2025-07-22,Amoxicillin,11
+2025-07-22,Vitamin C,16
+2025-07-23,Paracetamol,12
+2025-07-23,Amoxicillin,16
+2025-07-23,Vitamin C,17
+2025-07-24,Paracetamol,14
+2025-07-24,Amoxicillin,10
+2025-07-24,Vitamin C,18
+2025-07-25,Paracetamol,12
+2025-07-25,Amoxicillin,11
+2025-07-25,Vitamin C,11
+2025-07-26,Paracetamol,8
+2025-07-26,Amoxicillin,8
+2025-07-26,Vitamin C,12
+2025-07-27,Paracetamol,20
+2025-07-27,Amoxicillin,15
+2025-07-27,Vitamin C,13
+2025-07-28,Paracetamol,16
+2025-07-28,Amoxicillin,15
+2025-07-28,Vitamin C,11
+2025-07-29,Paracetamol,11
+2025-07-29,Amoxicillin,9
+2025-07-29,Vitamin C,18
+2025-07-30,Paracetamol,17
+2025-07-30,Amoxicillin,22
+2025-07-30,Vitamin C,14
+2025-07-31,Paracetamol,15
+2025-07-31,Amoxicillin,15
+2025-07-31,Vitamin C,9
+2025-08-01,Paracetamol,10
+2025-08-01,Amoxicillin,18
+2025-08-01,Vitamin C,12
+2025-08-02,Paracetamol,9
+2025-08-02,Amoxicillin,16
+2025-08-02,Vitamin C,14
+2025-08-03,Paracetamol,16
+2025-08-03,Amoxicillin,22
+2025-08-03,Vitamin C,14
+2025-08-04,Paracetamol,19
+2025-08-04,Amoxicillin,8
+2025-08-04,Vitamin C,11
+2025-08-05,Paracetamol,22
+2025-08-05,Amoxicillin,16
+2025-08-05,Vitamin C,11
+2025-08-06,Paracetamol,14
+2025-08-06,Amoxicillin,13
+2025-08-06,Vitamin C,25
+2025-08-07,Paracetamol,13
+2025-08-07,Amoxicillin,14
+2025-08-07,Vitamin C,17
+2025-08-08,Paracetamol,16
+2025-08-08,Amoxicillin,10
+2025-08-08,Vitamin C,18
+2025-08-09,Paracetamol,10
+2025-08-09,Amoxicillin,13
+2025-08-09,Vitamin C,17
+2025-08-10,Paracetamol,19
+2025-08-10,Amoxicillin,13
+2025-08-10,Vitamin C,15
+2025-08-11,Paracetamol,14
+2025-08-11,Amoxicillin,13
+2025-08-11,Vitamin C,19
+2025-08-12,Paracetamol,18
+2025-08-12,Amoxicillin,14
+2025-08-12,Vitamin C,18
+2025-08-13,Paracetamol,15
+2025-08-13,Amoxicillin,25
+2025-08-13,Vitamin C,9
+2025-08-14,Paracetamol,14
+2025-08-14,Amoxicillin,9
+2025-08-14,Vitamin C,10
+2025-08-15,Paracetamol,18
+2025-08-15,Amoxicillin,13
+2025-08-15,Vitamin C,14
+2025-08-16,Paracetamol,19
+2025-08-16,Amoxicillin,17
+2025-08-16,Vitamin C,12
+2025-08-17,Paracetamol,14
+2025-08-17,Amoxicillin,17
+2025-08-17,Vitamin C,8
+2025-08-18,Paracetamol,10
+2025-08-18,Amoxicillin,15
+2025-08-18,Vitamin C,5
+2025-08-19,Paracetamol,18
+2025-08-19,Amoxicillin,8
+2025-08-19,Vitamin C,24
+2025-08-20,Paracetamol,13
+2025-08-20,Amoxicillin,13
+2025-08-20,Vitamin C,17
+2025-08-21,Paracetamol,11
+2025-08-21,Amoxicillin,17
+2025-08-21,Vitamin C,12
+2025-08-22,Paracetamol,12
+2025-08-22,Amoxicillin,16
+2025-08-22,Vitamin C,11
+2025-08-23,Paracetamol,16
+2025-08-23,Amoxicillin,17
+2025-08-23,Vitamin C,19
+2025-08-24,Paracetamol,16
+2025-08-24,Amoxicillin,19
+2025-08-24,Vitamin C,10
+2025-08-25,Paracetamol,22
+2025-08-25,Amoxicillin,13
+2025-08-25,Vitamin C,14
+2025-08-26,Paracetamol,23
+2025-08-26,Amoxicillin,10
+2025-08-26,Vitamin C,12
+2025-08-27,Paracetamol,22
+2025-08-27,Amoxicillin,18
+2025-08-27,Vitamin C,19
+2025-08-28,Paracetamol,18
+2025-08-28,Amoxicillin,11
+2025-08-28,Vitamin C,6
+2025-08-29,Paracetamol,10
+2025-08-29,Amoxicillin,19
+2025-08-29,Vitamin C,15
+2025-08-30,Paracetamol,18
+2025-08-30,Amoxicillin,16
+2025-08-30,Vitamin C,12
+2025-08-31,Paracetamol,17
+2025-08-31,Amoxicillin,10
+2025-08-31,Vitamin C,9
+2025-09-01,Paracetamol,19
+2025-09-01,Amoxicillin,16
+2025-09-01,Vitamin C,16
+2025-09-02,Paracetamol,13
+2025-09-02,Amoxicillin,16
+2025-09-02,Vitamin C,18
+2025-09-03,Paracetamol,18
+2025-09-03,Amoxicillin,24
+2025-09-03,Vitamin C,13
+2025-09-04,Paracetamol,13
+2025-09-04,Amoxicillin,14
+2025-09-04,Vitamin C,20
+2025-09-05,Paracetamol,14
+2025-09-05,Amoxicillin,17
+2025-09-05,Vitamin C,16
+2025-09-06,Paracetamol,19
+2025-09-06,Amoxicillin,16
+2025-09-06,Vitamin C,17
+2025-09-07,Paracetamol,16
+2025-09-07,Amoxicillin,16
+2025-09-07,Vitamin C,17
+2025-09-08,Paracetamol,12
+2025-09-08,Amoxicillin,15
+2025-09-08,Vitamin C,7
+2025-09-09,Paracetamol,19
+2025-09-09,Amoxicillin,14
+2025-09-09,Vitamin C,13
+2025-09-10,Paracetamol,9
+2025-09-10,Amoxicillin,16
+2025-09-10,Vitamin C,17
+2025-09-11,Paracetamol,17
+2025-09-11,Amoxicillin,9
+2025-09-11,Vitamin C,19
+2025-09-12,Paracetamol,16
+2025-09-12,Amoxicillin,11
+2025-09-12,Vitamin C,13
+2025-09-13,Paracetamol,12
+2025-09-13,Amoxicillin,12
+2025-09-13,Vitamin C,11
+2025-09-14,Paracetamol,14
+2025-09-14,Amoxicillin,10
+2025-09-14,Vitamin C,18
+2025-09-15,Paracetamol,14
+2025-09-15,Amoxicillin,18
+2025-09-15,Vitamin C,16
+2025-09-16,Paracetamol,18
+2025-09-16,Amoxicillin,24
+2025-09-16,Vitamin C,7
+2025-09-17,Paracetamol,12
+2025-09-17,Amoxicillin,21
+2025-09-17,Vitamin C,12
+2025-09-18,Paracetamol,14
+2025-09-18,Amoxicillin,8
+2025-09-18,Vitamin C,4
+2025-09-19,Paracetamol,21
+2025-09-19,Amoxicillin,15
+2025-09-19,Vitamin C,13
+2025-09-20,Paracetamol,25
+2025-09-20,Amoxicillin,22
+2025-09-20,Vitamin C,14
+2025-09-21,Paracetamol,12
+2025-09-21,Amoxicillin,11
+2025-09-21,Vitamin C,16
+2025-09-22,Paracetamol,9
+2025-09-22,Amoxicillin,11
+2025-09-22,Vitamin C,20
+2025-09-23,Paracetamol,15
+2025-09-23,Amoxicillin,8
+2025-09-23,Vitamin C,15
+2025-09-24,Paracetamol,14
+2025-09-24,Amoxicillin,11
+2025-09-24,Vitamin C,14
+2025-09-25,Paracetamol,17
+2025-09-25,Amoxicillin,7
+2025-09-25,Vitamin C,19
+2025-09-26,Paracetamol,11
+2025-09-26,Amoxicillin,10
+2025-09-26,Vitamin C,18
+2025-09-27,Paracetamol,12
+2025-09-27,Amoxicillin,15
+2025-09-27,Vitamin C,15
+2025-09-28,Paracetamol,9
+2025-09-28,Amoxicillin,19
+2025-09-28,Vitamin C,11
+2025-09-29,Paracetamol,12
+2025-09-29,Amoxicillin,16
+2025-09-29,Vitamin C,19
+2025-09-30,Paracetamol,21
+2025-09-30,Amoxicillin,10
+2025-09-30,Vitamin C,19
+2025-10-01,Paracetamol,10
+2025-10-01,Amoxicillin,17
+2025-10-01,Vitamin C,24
+2025-10-02,Paracetamol,19
+2025-10-02,Amoxicillin,26
+2025-10-02,Vitamin C,27
+2025-10-03,Paracetamol,20
+2025-10-03,Amoxicillin,10
+2025-10-03,Vitamin C,26
+2025-10-04,Paracetamol,11
+2025-10-04,Amoxicillin,19
+2025-10-04,Vitamin C,28
+2025-10-05,Paracetamol,15
+2025-10-05,Amoxicillin,14
+2025-10-05,Vitamin C,25
+2025-10-06,Paracetamol,13
+2025-10-06,Amoxicillin,9
+2025-10-06,Vitamin C,19
+2025-10-07,Paracetamol,14
+2025-10-07,Amoxicillin,17
+2025-10-07,Vitamin C,23
+2025-10-08,Paracetamol,17
+2025-10-08,Amoxicillin,17
+2025-10-08,Vitamin C,28
+2025-10-09,Paracetamol,11
+2025-10-09,Amoxicillin,12
+2025-10-09,Vitamin C,21
+2025-10-10,Paracetamol,17
+2025-10-10,Amoxicillin,13
+2025-10-10,Vitamin C,30
+2025-10-11,Paracetamol,17
+2025-10-11,Amoxicillin,9
+2025-10-11,Vitamin C,24
+2025-10-12,Paracetamol,15
+2025-10-12,Amoxicillin,29
+2025-10-12,Vitamin C,24
+2025-10-13,Paracetamol,12
+2025-10-13,Amoxicillin,18
+2025-10-13,Vitamin C,30
+2025-10-14,Paracetamol,20
+2025-10-14,Amoxicillin,17
+2025-10-14,Vitamin C,17
+2025-10-15,Paracetamol,13
+2025-10-15,Amoxicillin,12
+2025-10-15,Vitamin C,29
+2025-10-16,Paracetamol,17
+2025-10-16,Amoxicillin,21
+2025-10-16,Vitamin C,16
+2025-10-17,Paracetamol,19
+2025-10-17,Amoxicillin,20
+2025-10-17,Vitamin C,26
+2025-10-18,Paracetamol,17
+2025-10-18,Amoxicillin,20
+2025-10-18,Vitamin C,25
+2025-10-19,Paracetamol,13
+2025-10-19,Amoxicillin,18
+2025-10-19,Vitamin C,32
+2025-10-20,Paracetamol,16
+2025-10-20,Amoxicillin,16
+2025-10-20,Vitamin C,21
+2025-10-21,Paracetamol,9
+2025-10-21,Amoxicillin,15
+2025-10-21,Vitamin C,36
+2025-10-22,Paracetamol,18
+2025-10-22,Amoxicillin,17
+2025-10-22,Vitamin C,21
+2025-10-23,Paracetamol,15
+2025-10-23,Amoxicillin,10
+2025-10-23,Vitamin C,25
+2025-10-24,Paracetamol,16
+2025-10-24,Amoxicillin,11
+2025-10-24,Vitamin C,20
+2025-10-25,Paracetamol,9
+2025-10-25,Amoxicillin,19
+2025-10-25,Vitamin C,25
+2025-10-26,Paracetamol,22
+2025-10-26,Amoxicillin,9
+2025-10-26,Vitamin C,18
+2025-10-27,Paracetamol,15
+2025-10-27,Amoxicillin,15
+2025-10-27,Vitamin C,21
+2025-10-28,Paracetamol,14
+2025-10-28,Amoxicillin,21
+2025-10-28,Vitamin C,27
+2025-10-29,Paracetamol,19
+2025-10-29,Amoxicillin,17
+2025-10-29,Vitamin C,21
+2025-10-30,Paracetamol,16
+2025-10-30,Amoxicillin,9
+2025-10-30,Vitamin C,24
+2025-10-31,Paracetamol,10
+2025-10-31,Amoxicillin,18
+2025-10-31,Vitamin C,16
+2025-11-01,Paracetamol,23
+2025-11-01,Amoxicillin,17
+2025-11-01,Vitamin C,26
+2025-11-02,Paracetamol,16
+2025-11-02,Amoxicillin,18
+2025-11-02,Vitamin C,33
+2025-11-03,Paracetamol,15
+2025-11-03,Amoxicillin,12
+2025-11-03,Vitamin C,26
+2025-11-04,Paracetamol,10
+2025-11-04,Amoxicillin,13
+2025-11-04,Vitamin C,27
+2025-11-05,Paracetamol,17
+2025-11-05,Amoxicillin,17
+2025-11-05,Vitamin C,22
+2025-11-06,Paracetamol,14
+2025-11-06,Amoxicillin,21
+2025-11-06,Vitamin C,22
+2025-11-07,Paracetamol,13
+2025-11-07,Amoxicillin,17
+2025-11-07,Vitamin C,23
+2025-11-08,Paracetamol,14
+2025-11-08,Amoxicillin,21
+2025-11-08,Vitamin C,19
+2025-11-09,Paracetamol,17
+2025-11-09,Amoxicillin,13
+2025-11-09,Vitamin C,24
+2025-11-10,Paracetamol,17
+2025-11-10,Amoxicillin,13
+2025-11-10,Vitamin C,28
+2025-11-11,Paracetamol,15
+2025-11-11,Amoxicillin,14
+2025-11-11,Vitamin C,19
+2025-11-12,Paracetamol,18
+2025-11-12,Amoxicillin,13
+2025-11-12,Vitamin C,26
+2025-11-13,Paracetamol,25
+2025-11-13,Amoxicillin,14
+2025-11-13,Vitamin C,26
+2025-11-14,Paracetamol,16
+2025-11-14,Amoxicillin,14
+2025-11-14,Vitamin C,21
+2025-11-15,Paracetamol,7
+2025-11-15,Amoxicillin,16
+2025-11-15,Vitamin C,26
+2025-11-16,Paracetamol,14
+2025-11-16,Amoxicillin,15
+2025-11-16,Vitamin C,27
+2025-11-17,Paracetamol,16
+2025-11-17,Amoxicillin,14
+2025-11-17,Vitamin C,25
+2025-11-18,Paracetamol,21
+2025-11-18,Amoxicillin,15
+2025-11-18,Vitamin C,18
+2025-11-19,Paracetamol,23
+2025-11-19,Amoxicillin,15
+2025-11-19,Vitamin C,26
+2025-11-20,Paracetamol,12
+2025-11-20,Amoxicillin,18
+2025-11-20,Vitamin C,25
+2025-11-21,Paracetamol,16
+2025-11-21,Amoxicillin,19
+2025-11-21,Vitamin C,20
+2025-11-22,Paracetamol,20
+2025-11-22,Amoxicillin,14
+2025-11-22,Vitamin C,28
+2025-11-23,Paracetamol,17
+2025-11-23,Amoxicillin,12
+2025-11-23,Vitamin C,30
+2025-11-24,Paracetamol,17
+2025-11-24,Amoxicillin,12
+2025-11-24,Vitamin C,29
+2025-11-25,Paracetamol,18
+2025-11-25,Amoxicillin,17
+2025-11-25,Vitamin C,31
+2025-11-26,Paracetamol,9
+2025-11-26,Amoxicillin,8
+2025-11-26,Vitamin C,24
+2025-11-27,Paracetamol,13
+2025-11-27,Amoxicillin,15
+2025-11-27,Vitamin C,16
+2025-11-28,Paracetamol,6
+2025-11-28,Amoxicillin,14
+2025-11-28,Vitamin C,21
+2025-11-29,Paracetamol,14
+2025-11-29,Amoxicillin,13
+2025-11-29,Vitamin C,21
+2025-11-30,Paracetamol,13
+2025-11-30,Amoxicillin,10
+2025-11-30,Vitamin C,25
+2025-12-01,Paracetamol,16
+2025-12-01,Amoxicillin,8
+2025-12-01,Vitamin C,21
+2025-12-02,Paracetamol,16
+2025-12-02,Amoxicillin,10
+2025-12-02,Vitamin C,21
+2025-12-03,Paracetamol,12
+2025-12-03,Amoxicillin,16
+2025-12-03,Vitamin C,29
+2025-12-04,Paracetamol,6
+2025-12-04,Amoxicillin,17
+2025-12-04,Vitamin C,31
+2025-12-05,Paracetamol,12
+2025-12-05,Amoxicillin,13
+2025-12-05,Vitamin C,23
+2025-12-06,Paracetamol,20
+2025-12-06,Amoxicillin,14
+2025-12-06,Vitamin C,17
+2025-12-07,Paracetamol,15
+2025-12-07,Amoxicillin,17
+2025-12-07,Vitamin C,28
+2025-12-08,Paracetamol,12
+2025-12-08,Amoxicillin,18
+2025-12-08,Vitamin C,14
+2025-12-09,Paracetamol,24
+2025-12-09,Amoxicillin,14
+2025-12-09,Vitamin C,20
+2025-12-10,Paracetamol,13
+2025-12-10,Amoxicillin,18
+2025-12-10,Vitamin C,20
+2025-12-11,Paracetamol,15
+2025-12-11,Amoxicillin,11
+2025-12-11,Vitamin C,27
+2025-12-12,Paracetamol,10
+2025-12-12,Amoxicillin,18
+2025-12-12,Vitamin C,27
+2025-12-13,Paracetamol,18
+2025-12-13,Amoxicillin,21
+2025-12-13,Vitamin C,23
+2025-12-14,Paracetamol,9
+2025-12-14,Amoxicillin,12
+2025-12-14,Vitamin C,22
+2025-12-15,Paracetamol,10
+2025-12-15,Amoxicillin,15
+2025-12-15,Vitamin C,25
+2025-12-16,Paracetamol,25
+2025-12-16,Amoxicillin,17
+2025-12-16,Vitamin C,29
+2025-12-17,Paracetamol,10
+2025-12-17,Amoxicillin,18
+2025-12-17,Vitamin C,18
+2025-12-18,Paracetamol,18
+2025-12-18,Amoxicillin,13
+2025-12-18,Vitamin C,31
+2025-12-19,Paracetamol,18
+2025-12-19,Amoxicillin,14
+2025-12-19,Vitamin C,15
+2025-12-20,Paracetamol,12
+2025-12-20,Amoxicillin,18
+2025-12-20,Vitamin C,35
+2025-12-21,Paracetamol,25
+2025-12-21,Amoxicillin,13
+2025-12-21,Vitamin C,20
+2025-12-22,Paracetamol,16
+2025-12-22,Amoxicillin,16
+2025-12-22,Vitamin C,30
+2025-12-23,Paracetamol,14
+2025-12-23,Amoxicillin,12
+2025-12-23,Vitamin C,33
+2025-12-24,Paracetamol,15
+2025-12-24,Amoxicillin,17
+2025-12-24,Vitamin C,19
+2025-12-25,Paracetamol,16
+2025-12-25,Amoxicillin,15
+2025-12-25,Vitamin C,25
+2025-12-26,Paracetamol,8
+2025-12-26,Amoxicillin,19
+2025-12-26,Vitamin C,26
+2025-12-27,Paracetamol,6
+2025-12-27,Amoxicillin,14
+2025-12-27,Vitamin C,31
+2025-12-28,Paracetamol,25
+2025-12-28,Amoxicillin,16
+2025-12-28,Vitamin C,24
+2025-12-29,Paracetamol,8
+2025-12-29,Amoxicillin,18
+2025-12-29,Vitamin C,25
+2025-12-30,Paracetamol,12
+2025-12-30,Amoxicillin,17
+2025-12-30,Vitamin C,26
+2025-12-31,Paracetamol,15
+2025-12-31,Amoxicillin,22
+2025-12-31,Vitamin C,27
