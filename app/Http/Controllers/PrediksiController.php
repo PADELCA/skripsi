@@ -2,30 +2,80 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use App\Models\StokObat;
 use App\Services\PrediksiService;
 
 class PrediksiController extends Controller
 {
-    public function index(PrediksiService $service)
+    public function index(
+        Request $request,
+        PrediksiService $service
+    )
     {
-        // Ambil data (Ambil 7 yang terakhir)
-        $dataStok = StokObat::latest()->take(7)->get()->reverse()->pluck('jumlah_terjual')->toArray();
-        
+        $obat = $request->get(
+            'obat',
+            'Paracetamol'
+        );
+
+        $daftarObat = [
+            'Paracetamol',
+            'Amoxicillin',
+            'Vitamin C'
+        ];
+
+        $dataStok = StokObat::where(
+                'nama_obat',
+                $obat
+            )
+            ->orderByDesc('tanggal')
+            ->take(14)
+            ->get()
+            ->reverse()
+            ->pluck('jumlah_terjual')
+            ->toArray();
+
         $prediksi = null;
+        $rekomendasi = null;
         $error = null;
 
-        // Hanya panggil AI jika data cukup (7 hari)
-        if (count($dataStok) >= 7) {
+        if (count($dataStok) >= 14) {
+
             try {
-                $prediksi = $service->getPrediksi($dataStok);
+
+                $hasil = $service->getPrediksi(
+                    $obat,
+                    $dataStok
+                );
+
+                $prediksi =
+                    $hasil['prediction'];
+
+                $rekomendasi =
+                    $hasil['rekomendasi'];
+
             } catch (\Exception $e) {
-                $error = $e->getMessage();
+
+                $error =
+                    $e->getMessage();
             }
+
         } else {
-            $error = "Data belum cukup (butuh minimal 7 hari).";
+
+            $error =
+                'Data belum cukup (minimal 14 hari).';
         }
 
-        return view('prediksi.index', compact('prediksi', 'dataStok', 'error'));
+        return view(
+            'modul-prediksi',
+            compact(
+                'obat',
+                'daftarObat',
+                'dataStok',
+                'prediksi',
+                'rekomendasi',
+                'error'
+            )
+        );
     }
 }

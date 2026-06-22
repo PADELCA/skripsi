@@ -6,29 +6,54 @@ use Illuminate\Support\Facades\Http;
 
 class PrediksiService
 {
-    public function getPrediksi(array $data)
+    public function getPrediksi(
+        string $obat,
+        array $data
+    )
     {
-        // Pastikan data yang dikirim adalah 7 angka
-        if (count($data) !== 7) {
-            throw new \Exception("Data harus berjumlah 7 hari!");
+        if (count($data) !== 14) {
+
+            throw new \Exception(
+                "Data harus berjumlah 14 hari!"
+            );
+
         }
 
-        $response = Http::post('http://127.0.0.1:5000/predict', [
-            'input' => $data
-        ]);
+        $response = Http::timeout(30)
+            ->post(
+                'http://127.0.0.1:5000/predict',
+                [
+                    'obat' => $obat,
+                    'input' => $data
+                ]
+            );
 
         if ($response->successful()) {
+
             $result = $response->json();
 
-            // Cek apakah Python mengirim status sukses
-            if (isset($result['status']) && $result['status'] === 'success') {
-                return $result['prediction'];
-            } else {
-                // Jika Python mengirim status error, kita lempar pesan errornya
-                throw new \Exception("AI Error: " . ($result['message'] ?? 'Unknown error'));
+            if (
+                isset($result['status']) &&
+                $result['status'] === 'success'
+            ) {
+
+                return [
+                    'prediction' =>
+                        $result['prediction'],
+
+                    'rekomendasi' =>
+                        $result['rekomendasi']
+                ];
             }
+
+            throw new \Exception(
+                'AI Error: ' .
+                ($result['message'] ?? 'Unknown error')
+            );
         }
 
-        throw new \Exception("Gagal terhubung ke API AI (Server Python mungkin mati)");
+        throw new \Exception(
+            'Gagal terhubung ke API AI'
+        );
     }
 }

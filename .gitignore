@@ -22,3 +22,22 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Flask
+/flask/venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database lokal
+/database/database.sqlite
+
+# TensorFlow logs
+events.out.tfevents.*
+
+# Model training sementara
+*.h5
+
+# Jika model terlalu besar
+# *.keras
+# *.pkl

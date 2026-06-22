@@ -4,33 +4,56 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\StokObat;
+use Illuminate\Support\Facades\File;
 
 class StokObatSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
-        $path = base_path('database/dataset_penjualan_apotek.csv');
-        $handle = fopen($path, 'r');
-        fgetcsv($handle); // Lewati header
+        $file = database_path('dataset_penjualan_apotek.csv');
 
-        $data = [];
-        while (($row = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            // Cek jika baris kosong agar tidak error
-            if (empty($row)) continue;
+        if (!File::exists($file)) {
+            $this->command->error("File CSV tidak ditemukan!");
+            return;
+        }
 
-            $data[] = [
-                'tanggal'        => $row,
-                'nama_obat'      => $row[1],
-                'jumlah_terjual' => (int)$row[2],
+        $handle = fopen($file, 'r');
+
+        // Lewati header
+        fgetcsv($handle);
+
+        $rows = [];
+
+        while (($row = fgetcsv($handle, 1000, ",")) !== false) {
+
+            if (!is_array($row) || count($row) < 3) {
+                continue;
+            }
+
+            $tanggal = trim($row[0]);
+            $namaObat = trim($row[1]);
+            $jumlah = (int) trim($row[2]);
+
+            $rows[] = [
+                'tanggal'        => $tanggal,
+                'nama_obat'      => $namaObat,
+                'jumlah_terjual' => $jumlah,
                 'created_at'     => now(),
                 'updated_at'     => now(),
             ];
         }
+
         fclose($handle);
 
-        // Gunakan chunk agar tidak membebani memori jika data banyak
-        foreach (array_chunk($data, 100) as $chunk) {
-            StokObat::insert($chunk);
+        if (!empty($rows)) {
+
+
+
+            StokObat::insert($rows);
+
+            $this->command->info(
+                "Berhasil mengimpor " . count($rows) . " data."
+            );
         }
     }
 }
