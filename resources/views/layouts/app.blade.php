@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-
 <html lang="id">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-   content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
 
-<title>
-    Apotik Limas
-</title>
+    <title>
+        APOTIK LIMAS | AI Forecasting
+    </title>
 
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 
-<link
-rel="stylesheet"
-href="{{ asset('css/style.css') }}">
+    <link
+        rel="stylesheet"
+        href="{{ asset('css/style.css') }}">
 
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -31,130 +30,228 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <div class="wrapper">
 
+    {{-- ===================== --}}
+    {{-- SIDEBAR --}}
+    {{-- ===================== --}}
 
-<aside class="sidebar">
+    <aside class="sidebar">
 
-    <div class="logo-area">
+        <div class="logo-area">
 
-        <h4>
-            💊 APOTIK LIMAS
-        </h4>
+            <div class="logo-icon">
 
-        <small>
-            AI Forecasting System
-        </small>
+                💊
 
-    </div>
+            </div>
 
-    <nav>
+            <h3>
 
-        <a href="/dashboard">
+                APOTIK LIMAS
 
-            <i class="fa-solid fa-house"></i>
+            </h3>
 
-            Dashboard
+            <small>
 
-        </a>
+                AI Forecasting System
 
-        <a href="/manajemen-data">
+            </small>
 
-            <i class="fa-solid fa-database"></i>
+            <div class="mt-3">
 
-            Manajemen Data
+                <span class="badge bg-success">
 
-        </a>
+                    <i class="fa-solid fa-circle-check"></i>
 
-        <a href="/prediksi">
+                    Model LSTM Aktif
 
-            <i class="fa-solid fa-chart-line"></i>
+                </span>
 
-            Prediksi
-
-        </a>
-
-        <a href="/laporan">
-
-            <i class="fa-solid fa-file-lines"></i>
-
-            Laporan
-
-        </a>
-
-    </nav>
-
-</aside>
-
-<main class="main-content">
-
-    <header class="topbar">
-
-        <div>
-
-            <h5 class="m-0">
-
-                Sistem Prediksi Stok Obat
-
-            </h5>
+            </div>
 
         </div>
 
-<div class="profile-box">
+        <nav>
 
-    <div class="user-avatar">
+            <a
+                href="/dashboard"
+                class="{{ request()->is('dashboard') ? 'active' : '' }}">
 
-        <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-chart-pie"></i>
 
-    </div>
+                Dashboard
 
-    <div>
+            </a>
 
-        <strong>
+            <a
+                href="/manajemen-data"
+                class="{{ request()->is('manajemen-data*') ? 'active' : '' }}">
 
-            {{ Auth::user()->name }}
+                <i class="fa-solid fa-database"></i>
 
-        </strong>
+                Dataset Historis
 
-        <br>
+            </a>
 
-        <small>
+            <a
+                href="/prediksi"
+                class="{{ request()->is('prediksi*') ? 'active' : '' }}">
 
-            Administrator
+                <i class="fa-solid fa-brain"></i>
 
-        </small>
+                Forecasting
 
-    </div>
+            </a>
 
-    <form
-        method="POST"
-        action="{{ route('logout') }}">
+            <a
+                href="/laporan"
+                class="{{ request()->is('laporan*') ? 'active' : '' }}">
 
-        @csrf
+                <i class="fa-solid fa-file-pdf"></i>
 
-        <button
-            type="submit"
-            class="btn btn-danger btn-sm">
+                Laporan
 
-            <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
 
-            Logout
+        </nav>
 
-        </button>
+        <div class="sidebar-footer">
 
-    </form>
+            <hr>
 
+            <small>
 
-    </header>
+                Forecasting Stok Obat
 
-    <section class="page-content">
+            </small>
 
-        @yield('content')
+            <br>
 
-    </section>
+            <small>
 
-</main>
-```
+                Long Short-Term Memory
+
+            </small>
+
+            <br>
+
+            <small>
+
+                Version 1.0
+
+            </small>
+
+        </div>
+
+    </aside>
+
+    {{-- ===================== --}}
+    {{-- MAIN --}}
+    {{-- ===================== --}}
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <div>
+
+                <h4 class="m-0">
+
+                    Sistem Forecasting Stok Obat
+
+                </h4>
+
+                <small class="text-muted">
+
+                    Dashboard Monitoring Artificial Intelligence
+
+                </small>
+
+            </div>
+
+            <div class="profile-box">
+
+                <div class="user-avatar">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+
+                        {{ Auth::user()->name }}
+
+                    </strong>
+
+                    <br>
+
+                    <small class="text-muted">
+
+                        Administrator
+
+                    </small>
+
+                </div>
+
+                <div class="vr mx-2"></div>
+
+                <div class="text-end">
+
+                    <small>
+
+                        {{ now()->format('d F Y') }}
+
+                    </small>
+
+                    <br>
+
+                    <small class="text-success">
+
+                        <i class="fa-solid fa-circle"></i>
+
+                        Online
+
+                    </small>
+
+                </div>
+
+                <form
+                    method="POST"
+                    action="{{ route('logout') }}"
+                    class="ms-3">
+
+                    @csrf
+
+                    <button
+                        type="submit"
+                        class="btn btn-danger">
+
+                        <i class="fa-solid fa-right-from-bracket"></i>
+
+                        Logout
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </header>
+
+        <section class="page-content">
+
+            @yield('content')
+
+        </section>
+
+    </main>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </body>
 

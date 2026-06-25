@@ -72,7 +72,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get(
         '/prediksi',
         [PrediksiController::class, 'index']
-    );
+    )->name('prediksi');
 
     // Laporan
     Route::get(
@@ -82,7 +82,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get(
         '/laporan/pdf',
-        [LaporanController::class, 'exportPdf']
+        [LaporanController::class,'pdf']
     );
 
     // Profile Breeze

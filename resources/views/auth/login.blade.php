@@ -87,7 +87,7 @@ body{
 
     <h2>
 
-        💊 APOTIK RISKI
+        💊 APOTIK LIMAS
 
     </h2>
 

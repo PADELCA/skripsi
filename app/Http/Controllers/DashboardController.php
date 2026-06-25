@@ -2,29 +2,44 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\StokObat;
+use App\Models\HasilPrediksi;
 
 class DashboardController extends Controller
 {
     public function index()
     {
-        $totalObat = StokObat::distinct('nama_obat')->count();
+        $forecast = HasilPrediksi::orderBy('nama_obat')->get();
 
-        $totalPenjualan = StokObat::sum('jumlah_terjual');
+        $jumlahObat = $forecast->count();
 
-        $obatTerlaris = StokObat::selectRaw('nama_obat, SUM(jumlah_terjual) as total')
-            ->groupBy('nama_obat')
-            ->orderByDesc('total')
-            ->first();
+        $totalForecast = round($forecast->sum('forecast'));
 
-        $dataTerbaru = StokObat::latest('tanggal')
-            ->first();
+        $forecastTertinggi = $forecast->sortByDesc('forecast')->first();
 
-        return view('dashboard', compact(
-            'totalObat',
-            'totalPenjualan',
-            'obatTerlaris',
-            'dataTerbaru'
-        ));
+        $forecastTerendah = $forecast->sortBy('forecast')->first();
+
+        $rataForecast = $forecast->count() > 0
+            ? round($forecast->avg('forecast'),2)
+            : 0;
+
+        $totalRekomendasi = round($forecast->sum('rekomendasi'));
+
+        $tanggalForecast = optional(
+            $forecast->sortByDesc('tanggal_prediksi')->first()
+        )->tanggal_prediksi;
+
+        return view('dashboard',[
+            'forecast'=>$forecast,
+            'jumlahObat'=>$jumlahObat,
+            'totalForecast'=>$totalForecast,
+            'forecastTertinggi'=>$forecastTertinggi,
+            'forecastTerendah'=>$forecastTerendah,
+            'rataForecast'=>$rataForecast,
+            'totalRekomendasi'=>$totalRekomendasi,
+            'tanggalForecast'=>$tanggalForecast,
+            'chartLabels'=>$forecast->pluck('nama_obat'),
+            'chartForecast'=>$forecast->pluck('forecast'),
+            'chartRekomendasi'=>$forecast->pluck('rekomendasi')
+        ]);
     }
 }

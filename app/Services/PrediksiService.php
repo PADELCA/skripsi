@@ -7,53 +7,35 @@ use Illuminate\Support\Facades\Http;
 class PrediksiService
 {
     public function getPrediksi(
-        string $obat,
-        array $data
+        int $kodeObat,
+        int $bulanKe
     )
     {
-        if (count($data) !== 14) {
-
-            throw new \Exception(
-                "Data harus berjumlah 14 hari!"
-            );
-
-        }
-
-        $response = Http::timeout(30)
-            ->post(
-                'http://127.0.0.1:5000/predict',
-                [
-                    'obat' => $obat,
-                    'input' => $data
+        $response = Http::post(
+            'http://127.0.0.1:5000/predict',
+            [
+                'input' => [
+                    [
+                        $kodeObat,
+                        $bulanKe
+                    ]
                 ]
-            );
+            ]
+        );
 
-        if ($response->successful()) {
-
-            $result = $response->json();
-
-            if (
-                isset($result['status']) &&
-                $result['status'] === 'success'
-            ) {
-
-                return [
-                    'prediction' =>
-                        $result['prediction'],
-
-                    'rekomendasi' =>
-                        $result['rekomendasi']
-                ];
-            }
-
+        if (!$response->successful())
+        {
             throw new \Exception(
-                'AI Error: ' .
-                ($result['message'] ?? 'Unknown error')
+                'Flask API tidak merespon'
             );
         }
 
-        throw new \Exception(
-            'Gagal terhubung ke API AI'
+        $result =
+            $response->json();
+
+        return round(
+            $result['prediction'],
+            2
         );
     }
 }

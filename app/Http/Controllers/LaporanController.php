@@ -2,117 +2,65 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\StokObat;
 use App\Models\HasilPrediksi;
-use App\Services\PrediksiService;
 use Barryvdh\DomPDF\Facade\Pdf;
 
 class LaporanController extends Controller
 {
-    public function index(
-        PrediksiService $service
-    )
-    
+    public function index()
     {
-        $obatList = [
+        // Ambil hanya prediksi terbaru dari setiap obat
+        $ids = HasilPrediksi::selectRaw('MAX(id) as id')
+            ->groupBy('nama_obat')
+            ->pluck('id');
 
-            'Paracetamol',
+        $laporan = HasilPrediksi::whereIn('id', $ids)
+            ->orderBy('nama_obat')
+            ->get();
 
-            'Amoxicillin',
+        $jumlahObat = $laporan->count();
+        $totalForecast = round($laporan->sum('forecast'));
+        $totalRekomendasi = round($laporan->sum('rekomendasi'));
+        $rataForecast = $jumlahObat > 0 ? round($laporan->avg('forecast'),2) : 0;
 
-            'Vitamin C'
+        $forecastTertinggi = $laporan->sortByDesc('forecast')->first();
+        $forecastTerendah = $laporan->sortBy('forecast')->first();
 
+        return view('laporan',[
+            'data'=>$laporan,
+            'jumlahObat'=>$jumlahObat,
+            'totalForecast'=>$totalForecast,
+            'totalRekomendasi'=>$totalRekomendasi,
+            'rataForecast'=>$rataForecast,
+            'forecastTertinggi'=>$forecastTertinggi,
+            'forecastTerendah'=>$forecastTerendah,
+            'chartLabels'=>$laporan->pluck('nama_obat'),
+            'chartForecast'=>$laporan->pluck('forecast')
+        ]);
+    }
+
+    public function pdf()
+    {
+        $ids = HasilPrediksi::selectRaw('MAX(id) as id')
+            ->groupBy('nama_obat')
+            ->pluck('id');
+
+        $riwayat = HasilPrediksi::whereIn('id',$ids)
+            ->orderBy('nama_obat')
+            ->get();
+
+        $summary = [
+            'jumlahObat'=>$riwayat->count(),
+            'totalForecast'=>round($riwayat->sum('forecast')),
+            'totalRekomendasi'=>round($riwayat->sum('rekomendasi')),
+            'rataForecast'=>$riwayat->count()?round($riwayat->avg('forecast'),2):0
         ];
 
-        $hasilForecast = [];
+        $pdf = Pdf::loadView('laporan-pdf',[
+            'riwayat'=>$riwayat,
+            'summary'=>$summary
+        ])->setPaper('a4','portrait');
 
-        foreach ($obatList as $obat)
-        {
-            $data = StokObat::where(
-                    'nama_obat',
-                    $obat
-                )
-                ->orderByDesc('tanggal')
-                ->take(14)
-                ->get()
-                ->reverse()
-                ->pluck('jumlah_terjual')
-                ->toArray();
-
-            if (
-                count($data) < 14
-            ) {
-                continue;
-            }
-
-            try {
-
-                $hasil = $service->getPrediksi(
-                    $obat,
-                    $data
-                );
-
-                HasilPrediksi::updateOrCreate(
-
-                    [
-                        'nama_obat' => $obat,
-                        'tanggal_prediksi' =>
-                            now()->toDateString()
-                    ],
-
-                    [
-                        'forecast' =>
-                            $hasil['prediction'],
-
-                        'rekomendasi' =>
-                            $hasil['rekomendasi']
-                    ]
-
-                );
-
-                $hasilForecast[] = [
-
-                    'nama_obat' =>
-                        $obat,
-
-                    'forecast' =>
-                        $hasil['prediction'],
-
-                    'rekomendasi' =>
-                        $hasil['rekomendasi']
-
-                ];
-
-            } catch (\Exception $e) {
-
-                //
-            }
-        }
-
-        $riwayat = HasilPrediksi::latest()
-            ->paginate(10);
-
-        return view(
-            'laporan',
-            compact(
-                'hasilForecast',
-                'riwayat'
-            )
-        );
+        return $pdf->download('Laporan_Forecasting_Stok_Obat.pdf');
     }
-        public function exportPdf()
-        {
-            $riwayat = HasilPrediksi::latest()
-                ->get();
-
-            $pdf = Pdf::loadView(
-                'laporan-pdf',
-                compact('riwayat')
-            );
-
-            return $pdf->download(
-                'laporan_forecast_obat.pdf'
-            );
-        }
-
 }
